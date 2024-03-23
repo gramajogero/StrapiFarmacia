@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_grupo_num_grupo_nums",
+  "info": {
+    "displayName": "grupoNum"
+  },
+  "options": {},
+  "attributes": {
+    "grupoNum": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "farmacias",
+  "info": {
+    "singularName": "farmacia",
+    "pluralName": "farmacias",
+    "displayName": "Farmacia",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombreFarmacia": {
+      "type": "string"
+    },
+    "domicilio": {
+      "type": "string"
+    },
+    "telefono": {
+      "type": "string"
+    },
+    "grupo": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::grupo.grupo",
+      "inversedBy": "farmacias"
+    }
+  }
+}

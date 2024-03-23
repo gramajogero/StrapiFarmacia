@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "grupos",
+  "info": {
+    "singularName": "grupo",
+    "pluralName": "grupos",
+    "displayName": "Grupo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subGrupo": {
+      "type": "enumeration",
+      "enum": [
+        "A",
+        "B"
+      ]
+    },
+    "grupoNum": {
+      "type": "integer"
+    },
+    "farmacias": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::farmacia.farmacia",
+      "mappedBy": "grupo"
+    }
+  }
+}

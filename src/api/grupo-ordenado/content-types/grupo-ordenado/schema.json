@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "grupo_ordenados",
+  "info": {
+    "singularName": "grupo-ordenado",
+    "pluralName": "grupo-ordenados",
+    "displayName": "GrupoOrdenado"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "grupoDia": {
+      "type": "json"
+    }
+  }
+}
