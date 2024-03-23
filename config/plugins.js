@@ -3,7 +3,7 @@ module.exports = ({ env }) => ({
       enabled: true,
       config: {
         deployHook:
-          "https://api.vercel.com/v1/integrations/deploy/prj_<deploy-hook>",
+          "https://api.vercel.com/v1/integrations/deploy/prj_tnzyYKfZW7eYZLWKlCIRWGNdP0bu/B5PmoB6ZFu",
         apiToken: "yJr3jSzJrLpc2ITzNMbxGdjb",
         appFilter: "Farmacia",
         teamFilter: "Farmacia-Corrientes",
